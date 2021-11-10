@@ -3,17 +3,23 @@
     <div>
       <firstTitle/>
     </div>
+
+    <div>
+      <jumbotron/>
+    </div>
   </div>
 </template>
 
 <script>
-import firstTitle from './components/Title.vue'
+  import firstTitle from './components/Title.vue';
+  import jumbotron from './components/Hero.vue';
 
-export default {
-  name: 'App',
-  components: {
-    firstTitle
-  }
+  export default {
+    name: 'App',
+    components: {
+      firstTitle,
+      jumbotron
+    }
 }
 </script>
 
