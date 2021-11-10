@@ -32,5 +32,6 @@
   p {
     margin: 0;
     text-align: left;
+    width: 70%;
   }
 </style>
