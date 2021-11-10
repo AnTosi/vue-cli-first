@@ -1,9 +1,12 @@
 <template>
-    <div class="hero_text">
+    <div class="hero_container">
+        <img src="../assets/dune.jpg" alt="">
+      <div class="hero_text">
         <h2>Dune</h2>
         <p>
           Sto film spacca, andatelo a guardare perché lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus ducimus accusamus?
         </p>
+      </div>
     </div>
 </template>
 
@@ -33,5 +36,14 @@
     margin: 0;
     text-align: left;
     width: 70%;
+  }
+
+  .hero_container img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .hero_container {
+    position: relative;
   }
 </style>
